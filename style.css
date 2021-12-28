@@ -28,6 +28,7 @@
 	background: linear-gradient(to right, #BF7B60, #7BDBED);
 	border-radius: 10px;
 	box-shadow: 0 0 10px white;
+	cursor: pointer;
 }
 
 @keyframes textAnimated {
