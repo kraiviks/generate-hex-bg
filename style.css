@@ -1,41 +1,41 @@
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.desc, .gradient{
+.desc,
+.gradient {
 	text-align: center;
 	font-size: 30px;
-	width: 1000px;
 	animation: textAnimated 3s ease-in-out infinite alternate-reverse;
 }
 
-
-.container{
+.container {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #BF7B60, #7BDBED);
+	background: linear-gradient(to right, #bf7b60, #7bdbed);
 }
 
-.change-gradient{
+.change-gradient {
 	padding: 15px 30px;
-	background: linear-gradient(to right, #BF7B60, #7BDBED);
+	background: linear-gradient(to right, #bf7b60, #7bdbed);
 	border-radius: 10px;
 	box-shadow: 0 0 10px white;
 	cursor: pointer;
 }
 
 @keyframes textAnimated {
-	from{
+	from {
 		color: wheat;
 	}
-	to{
+	to {
 		color: black;
 	}
 }
